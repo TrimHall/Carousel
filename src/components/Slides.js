@@ -17,11 +17,45 @@ export default class Slides extends React.Component {
     const settings = {
       centerMode: true,
       focusOnSelect: true,
-      centerPadding: '0px',
+      centerPadding: '0%',
       slidesToShow: 3,
-      dots: true,
+      dots: false,
+      autoplay: true,
       draggable: true,
-      responsive: [{ breakpoint: 769, settings: {arrows: false, slidesToShow: 1, centerPadding: '20px'}}]
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '25%',
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '20%',
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 320,
+          settings: {
+            slidesToShow: 1,
+            centerPadding: '50%',
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+
+          }
+        }
+      ]
     };
     return (
       <div>
