@@ -20,7 +20,7 @@ export default class Slides extends React.Component {
       centerPadding: '0%',
       slidesToShow: 3,
       dots: false,
-      autoplay: true,
+      autoplay: false,
       draggable: true,
       responsive: [
         {
@@ -48,11 +48,10 @@ export default class Slides extends React.Component {
           breakpoint: 320,
           settings: {
             slidesToShow: 1,
-            centerPadding: '50%',
+            centerPadding: '12%',
             slidesToScroll: 1,
             dots: true,
             arrows: false
-
           }
         }
       ]
