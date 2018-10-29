@@ -8,9 +8,9 @@ Build a content carousel module that is fully responsive and matches a supplied 
 
 The design was supplied in 3 parts: Desktop, Tablet and Mobile.
 
-<img src="./src/assets/readme-images/MOFDesktop.png" style="width: 200px"/>
-<img src="./src/assets/readme-images/MOFTablet.png" style="width: 150px"/>
-<img src="./src/assets/readme-images/MOFMobile.png" style="width: 100px"/>
+<img src="./src/assets/readme-images/MOFDesktop.png" width="200px"/>
+<img src="./src/assets/readme-images/MOFTablet.png" width="150px"/>
+<img src="./src/assets/readme-images/MOFMobile.png" width="100px"/>
 
 ## The Approach:
 
@@ -36,9 +36,9 @@ Lastly, I used SCSS to style the page and media queries to make the page respons
 
 I managed to accurately recreate the original design, however I did make the slides to the left and right of the centre slide slightly larger, as I felt it was more visually pleasing.
 
-<img src="./src/assets/readme-images/result1.gif" style="width: 200px"/>
-<img src="./src/assets/readme-images/result2.gif" style="width: 150px"/>
-<img src="./src/assets/readme-images/result3.gif" style="width: 100px"/>
+<img src="./src/assets/readme-images/result1.gif" width="200px"/>
+<img src="./src/assets/readme-images/result2.gif" width="150px"/>
+<img src="./src/assets/readme-images/result3.gif" width="100px"/>
 
 ## Blockers:
 
@@ -53,7 +53,7 @@ This was my first attempt at building a carousel and I think it went ok!
 I'm pleased with my adaption of the code examples on the Slick docs and the refactoring of the render function.
 
 > - Before:
-<img src="./src/assets/readme-images/slickdocs.png" style="height: 250px"/>
+<img src="./src/assets/readme-images/slickdocs.png" width="250px"/>
 
 > - After:
-<img src="./src/assets/readme-images/refactored.png" style="height: 250px"/>
+<img src="./src/assets/readme-images/refactored.png" width="300px"/>
