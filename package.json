@@ -1,0 +1,37 @@
+{
+  "name": "MOF",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tristan Hall",
+  "license": "MIT",
+  "scripts": {
+    "start:client": "webpack-dev-server",
+    "build": "webpack -p",
+    "start": "yarn build && node index"
+  },
+  "engines": {
+    "node": "9.10.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
