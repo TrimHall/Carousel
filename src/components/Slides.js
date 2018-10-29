@@ -4,12 +4,12 @@ import Slider from 'react-slick';
 export default class Slides extends React.Component {
   state = {
     destinations: [
-      {name: 'florida', area: 'bahamas & caribbean', img: '../assets/pic01.png', alt: 'a picture of cuba'},
-      {name: 'thailand', area: 'asia', img: '../assets/pic02.png', alt: 'something about thailand'},
-      {name: 'malaysia', area: 'indonesia', img: '../assets/pic03.png', alt: 'malay stuff'},
-      {name: 'scotland', area: 'united kingdom', img: '../assets/pic04.png', alt: 'things about kilts'},
-      {name: 'australia', area: 'dingos', img: '../assets/pic05.png', alt: 'fosters and shrimps'},
-      {name: 'spain', area: 'playa del something', img: '../assets/pic06.png', alt: 'sunbeds being stolen'}
+      {name: 'florida', area: 'bahamas & caribbean', img: '../assets/pic01.png', alt: 'An arial view of islands surrounded by water'},
+      {name: 'thailand', area: 'asia', img: '../assets/pic02.png', alt: 'Steep cliffs into the sea in southern Thailand'},
+      {name: 'malaysia', area: 'indonesia', img: '../assets/pic03.png', alt: 'An under water photo of the ocean bed'},
+      {name: 'hawaii', area: 'central pacific', img: '../assets/pic04.png', alt: 'A green turtle swimming under water'},
+      {name: 'gold coast', area: 'australia', img: '../assets/pic05.png', alt: 'Shallow water around the beaches in Australia'},
+      {name: 'spain', area: 'playa del something', img: '../assets/pic06.png', alt: 'A pier extending out into the ocean'}
     ]
   }
   render() {
@@ -20,7 +20,7 @@ export default class Slides extends React.Component {
       centerPadding: '0%',
       slidesToShow: 3,
       dots: false,
-      autoplay: false,
+      autoplay: true,
       draggable: true,
       responsive: [
         {
