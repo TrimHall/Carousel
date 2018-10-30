@@ -56,4 +56,4 @@ I'm pleased with my adaption of the code examples on the Slick docs and the refa
 <img src="./src/assets/readme-images/slickdocs.png" width="350px"/>
 
 > - After:
-<img src="./src/assets/readme-images/refactored.png" width="700px"/>
+<img src="./src/assets/readme-images/my-slides.png" width="700px"/>
