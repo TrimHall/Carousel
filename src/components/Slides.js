@@ -64,7 +64,7 @@ export default class Slides extends React.Component {
               <img src={ destination.img } alt={ destination.alt }/>
               <h2>{ destination.name }</h2>
               <p>{ destination.area }</p>
-              <a href="#" alt="click here to view the itinerary">View itinerary</a>
+              <a href="#">View itinerary</a>
             </div>
           )}
         </Slider>
